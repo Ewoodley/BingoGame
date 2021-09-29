@@ -1,0 +1,16 @@
+C:\Users\erwoodle\source\repos\Bingo\bin\Debug\net5.0\Bingo.exe
+C:\Users\erwoodle\source\repos\Bingo\bin\Debug\net5.0\Bingo.deps.json
+C:\Users\erwoodle\source\repos\Bingo\bin\Debug\net5.0\Bingo.runtimeconfig.json
+C:\Users\erwoodle\source\repos\Bingo\bin\Debug\net5.0\Bingo.runtimeconfig.dev.json
+C:\Users\erwoodle\source\repos\Bingo\bin\Debug\net5.0\Bingo.dll
+C:\Users\erwoodle\source\repos\Bingo\bin\Debug\net5.0\ref\Bingo.dll
+C:\Users\erwoodle\source\repos\Bingo\bin\Debug\net5.0\Bingo.pdb
+C:\Users\erwoodle\source\repos\Bingo\obj\Debug\net5.0\Bingo.csproj.AssemblyReference.cache
+C:\Users\erwoodle\source\repos\Bingo\obj\Debug\net5.0\Bingo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\erwoodle\source\repos\Bingo\obj\Debug\net5.0\Bingo.AssemblyInfoInputs.cache
+C:\Users\erwoodle\source\repos\Bingo\obj\Debug\net5.0\Bingo.AssemblyInfo.cs
+C:\Users\erwoodle\source\repos\Bingo\obj\Debug\net5.0\Bingo.csproj.CoreCompileInputs.cache
+C:\Users\erwoodle\source\repos\Bingo\obj\Debug\net5.0\Bingo.dll
+C:\Users\erwoodle\source\repos\Bingo\obj\Debug\net5.0\ref\Bingo.dll
+C:\Users\erwoodle\source\repos\Bingo\obj\Debug\net5.0\Bingo.pdb
+C:\Users\erwoodle\source\repos\Bingo\obj\Debug\net5.0\Bingo.genruntimeconfig.cache
