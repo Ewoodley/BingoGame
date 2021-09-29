@@ -23,10 +23,13 @@ namespace Bingo
 
                     Console.Write(drawboard[i, j] + "\t");
 
+
                 }
                 Console.WriteLine("\n");
                 
             }
         }
+
+        
     }
 }

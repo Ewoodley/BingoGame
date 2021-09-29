@@ -31,9 +31,6 @@ namespace Bingo
         {
             Console.WriteLine($"Grabbing the Bingo Ball... \n\n   Bingo Ball: [ ]!");
         }
-     //public void BingoCaller()
-     //   {
-     //       Console.WriteLine($"Grabbing the Bingo Ball... \n\n   Bingo Ball:{CharGenerator()}{NumGenerator()}!");
-     //}  
+     
     }
 }
