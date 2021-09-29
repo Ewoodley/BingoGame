@@ -8,18 +8,19 @@ namespace Bingo
 {
     public class Game
     {
-        public string GetBingoBall()
+        public string BingoBall;
+        public void GetBingoBall()
         {
             string bingoBall = Convert.ToString($"{Caller.CharGenerator()}{Caller.NumGenerator()}");
-            return bingoBall;
+            BingoBall = bingoBall;
         }
         public void DupeCheck()
         {
             List<string> ballPit = new List<string>();
             // Part of DupeCheck Test
-          //  for (int i = 0; i < 5; i++)
+            //  for (int i = 0; i < 5; i++)
             //{
-                string bingoBall = GetBingoBall();
+            string bingoBall = BingoBall;
                 ballPit.Add(bingoBall);
                 if (ballPit.Distinct().Count() != ballPit.Count())
                 {
