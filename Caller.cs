@@ -8,12 +8,12 @@ namespace Bingo
 {
     public class Caller
     {
-       
-
         public static char CharGenerator()
         {
             Random dnr = new Random();
             char[] myLetters = { 'B', 'I', 'N', 'G', 'O' };
+            // Part of Ball Dupe Test
+            //char[] myLetters = { 'B' };
             int bingoIndex = dnr.Next(0, myLetters.Length);
             return myLetters[bingoIndex];
         }
@@ -22,12 +22,14 @@ namespace Bingo
         {
             Random rnd = new Random();
             int callNum = rnd.Next(1, 75);
+            // Part of Ball Dupe Test
+            //int callNum = rnd.Next(1, 3);
             return callNum;
         }
-
+       
         public Caller()
         {
-            Console.WriteLine($"Grabbing the Bingo Ball... \n\n   Bingo Ball:{CharGenerator()}{NumGenerator()}!");
+            Console.WriteLine($"Grabbing the Bingo Ball... \n\n   Bingo Ball: [ ]!");
         }
      //public void BingoCaller()
      //   {
