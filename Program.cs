@@ -8,7 +8,8 @@ namespace Bingo
         {
             var board = new BingoBoard();
             var ball = new Caller();
-            var test = new Game();
+
+            //var test = new Game();
             // Part of DupeCheck Test
             //test.DupeCheck();
         }
