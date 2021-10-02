@@ -8,6 +8,8 @@ namespace Bingo
 {
     public class Caller
     {
+        public static List<string> CallerBall = new List<string>();
+
         public static char CharGenerator()
         {
             Random dnr = new Random();
@@ -27,9 +29,10 @@ namespace Bingo
             return callNum;
         }
        
-        public Caller()
+        public static void Calls()
         {
-            Console.WriteLine($"Grabbing the Bingo Ball... \n\n   Bingo Ball: [ ]!");
+            Console.WriteLine($"Grabbing the Bingo Ball... \n\n   Bingo Ball: {Game.BingoBall}!");
+            CallerBall.Add(Game.BingoBall);
         }
      
     }

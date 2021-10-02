@@ -7,7 +7,8 @@ namespace Bingo
         static void Main(string[] args)
         {
             var board = new BingoBoard();
-            var ball = new Caller();
+            Game.GetBingoBall();
+            Caller.Calls();
             
             //var test = new Game();
             // Part of DupeCheck Test
