@@ -9,19 +9,23 @@ namespace Bingo
 {
     public class BingoBoard
     {
+        public static int row;
+        public static int col;
+        public static int[,] drawBoard;
         public BingoBoard()
+
         {
-            int[,] drawboard = new int[5, 5];
+            drawBoard = new int[5, 5];
             Random draw = new Random();
             Console.WriteLine("B\tI\tN\tG\tO");
                      
-            for (int i = 0; i < drawboard.GetLength(0); i++)
+            for (var row = 0; row < drawBoard.GetLength(0); row++)
             {
-                for (int j = 0; j < drawboard.GetLength(1); j++)
+                for (var col = 0; col < drawBoard.GetLength(1); col++)
                 { 
-                   drawboard[i, j] = draw.Next(1, 76);
+                   drawBoard[row, col] = draw.Next(1, 76);
 
-                    Console.Write(drawboard[i, j] + "\t");
+                    Console.Write(drawBoard[row, col] + "\t");
 
 
                 }

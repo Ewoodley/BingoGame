@@ -6,9 +6,16 @@ namespace Bingo
     {
         static void Main(string[] args)
         {
+            
             var board = new BingoBoard();
+                     
             Game.GetBingoBall();
             Caller.Calls();
+            
+               
+                Console.WriteLine("Push any key to draw a new ball");
+                Console.ReadLine();
+                               
             
             //var test = new Game();
             // Part of DupeCheck Test

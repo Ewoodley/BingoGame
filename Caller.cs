@@ -9,7 +9,7 @@ namespace Bingo
     public class Caller
     {
         public static List<string> CallerBall = new List<string>();
-
+        
         public static char CharGenerator()
         {
             Random dnr = new Random();
@@ -31,8 +31,12 @@ namespace Bingo
        
         public static void Calls()
         {
+            int counter = 0;
+            while(counter < 75) { 
             Console.WriteLine($"Grabbing the Bingo Ball... \n\n   Bingo Ball: {Game.BingoBall}!");
             CallerBall.Add(Game.BingoBall);
+                counter++;
+                    }
         }
      
     }
