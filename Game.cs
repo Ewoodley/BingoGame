@@ -9,14 +9,14 @@ namespace Bingo
     public class Game
     {
         public static string BingoBall;
-        public List<string> BallPin = new List<string>();
+        public static List<string> BallPin = new List<string>();
         
         public static void GetBingoBall()
         {
             string bingoBall = Convert.ToString($"{Caller.CharGenerator()}{Caller.NumGenerator()}");
             BingoBall = bingoBall;
         }
-        public void DupeCheck()
+        public static void DupeCheck()
         {
             if (!Caller.CallerBall.Contains(BingoBall))
             {

@@ -11,9 +11,7 @@ namespace Bingo
                      
             Game.GetBingoBall();
             Caller.Calls();
-            
-            //remove this before commiting
-
+            Game.DupeCheck();
                
                 Console.WriteLine("Push any key to draw a new ball");
                 Console.ReadLine();
