@@ -24,7 +24,7 @@ namespace Bingo
                 Caller.Calls();
             }
             else
-                GetBingoBall();
+                return;
         }
 
         public static int BallCheck(string BallPin, int numbersCalled)

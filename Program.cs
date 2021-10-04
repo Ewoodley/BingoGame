@@ -15,6 +15,7 @@ namespace Bingo
             Game.GetBingoBall();
             Caller.Calls();
             Game.DupeCheck();
+            //Game.BallCheck(); <- needs two paramenters
             }
 
 
