@@ -12,14 +12,11 @@ namespace Bingo
             Game.GetBingoBall();
             Caller.Calls();
             
+            //remove this before commiting
+
                
                 Console.WriteLine("Push any key to draw a new ball");
                 Console.ReadLine();
-                               
-            
-            //var test = new Game();
-            // Part of DupeCheck Test
-            //test.DupeCheck();
         }
     }
 

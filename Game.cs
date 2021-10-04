@@ -18,16 +18,13 @@ namespace Bingo
         }
         public void DupeCheck()
         {
-            for (int i = 0; i < 5; i++)
+            if (!Caller.CallerBall.Contains(BingoBall))
             {
-                if (!Caller.CallerBall.Contains(BingoBall))
-                {
-                    BallPin.Add(BingoBall);
-                    Caller.Calls();
-                }
-                else
-                    GetBingoBall();
+                BallPin.Add(BingoBall);
+                Caller.Calls();
             }
+            else
+                GetBingoBall();
         }
 
         public static int BallCheck(string BallPin, int numbersCalled)
