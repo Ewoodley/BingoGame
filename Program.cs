@@ -8,13 +8,16 @@ namespace Bingo
         {
             
             var board = new BingoBoard();
-                     
+            while (true)
+            {  
+            Console.WriteLine("Push any key to draw a new ball");
+            Console.ReadLine();
             Game.GetBingoBall();
             Caller.Calls();
             Game.DupeCheck();
-               
-                Console.WriteLine("Push any key to draw a new ball");
-                Console.ReadLine();
+            }
+
+
         }
     }
 
