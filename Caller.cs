@@ -19,10 +19,8 @@ namespace Bingo
        
         public static void Calls()
         {
-            int counter = 0;
             Console.WriteLine($"Grabbing the Bingo Ball... \n\n   Bingo Ball: {Game.BingoBall}!");
             CallerBall.Add(Game.BingoBall);
-            counter++;
         }
      
     }

@@ -6,8 +6,8 @@ namespace Bingo
     {
         static void Main(string[] args)
         {
-            
             var board = new BingoBoard();
+
             while (true)
             {  
             Console.WriteLine("Push any key to draw a new ball");
@@ -15,18 +15,14 @@ namespace Bingo
             Game.GetBingoBall();
             Caller.Calls();
             Game.DupeCheck();
-            //Game.BallCheck(); <- needs two paramenters
+            Game.BallCheck();
             }
-
-
         }
     }
-
 }
 /* TO DO
  * Check Bingo Card against Caller Ball
  * Check Win or Lose Conditions
- * Check for Duplicate Draws
  */
 
 

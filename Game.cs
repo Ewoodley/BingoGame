@@ -11,6 +11,7 @@ namespace Bingo
         public static int BingoBall;
         public static List<int> BallPin = new List<int>();
         
+
         public static void GetBingoBall()
         {
             int bingoBall = Caller.NumGenerator();
@@ -18,30 +19,47 @@ namespace Bingo
         }
         public static void DupeCheck()
         {
-            if (!Caller.CallerBall.Contains(BingoBall))
+            if (Caller.CallerBall.Contains(BingoBall))
             {
                 BallPin.Add(BingoBall);
-                Caller.Calls();
             }
             else
                 return;
         }
 
-        public static int BallCheck(string BallPin, int numbersCalled)
+        public static void BallCheck()
         {
-            for (var row = 0; row < BingoBoard.row; row++)
+            int index = -1;
+            for (int i = 0; i < BingoBoard.drawBoard.GetLength(0); i++)
             {
-                for (var col = 0; col < BingoBoard.col; col++)
+                if (BingoBoard.drawBoard[0, i] == BingoBall)
                 {
-                    if (BingoBoard.drawBoard[row, col].Equals(BallPin))
-                    {
-                        Console.WriteLine("Got that!");
-                        numbersCalled++;
-                        Console.WriteLine($"You have had {numbersCalled} numbers so far");
-                    }
+                    index = i;
+                    Console.WriteLine("Match Row1");
+                }
+                if (BingoBoard.drawBoard[1, i] == BingoBall)
+                {
+                    index = i;
+                    Console.WriteLine("Match Row2");
+                }
+                if (BingoBoard.drawBoard[2, i] == BingoBall)
+                {
+                    index = i;
+                    Console.WriteLine("Match Row3");
+                }
+                if (BingoBoard.drawBoard[3, i] == BingoBall)
+                {
+                    index = i;
+                    Console.WriteLine("Match Row4");
+                }
+                if (BingoBoard.drawBoard[4, i] == BingoBall)
+                {
+                    index = i;
+                    Console.WriteLine("Match Row5");
                 }
             }
-            return numbersCalled;
+        }
+    }
             /* public static int Win()
              {
                  bool win = false;
@@ -77,6 +95,6 @@ namespace Bingo
                  }*/
 
 
-        }
-    }
+        
+    
 }
