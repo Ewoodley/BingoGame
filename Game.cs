@@ -29,32 +29,26 @@ namespace Bingo
 
         public static void BallCheck()
         {
-            int index = -1;
             for (int i = 0; i < BingoBoard.drawBoard.GetLength(0); i++)
             {
                 if (BingoBoard.drawBoard[0, i] == BingoBall)
                 {
-                    index = i;
                     Console.WriteLine("Match Row1");
                 }
-                if (BingoBoard.drawBoard[1, i] == BingoBall)
+                else if (BingoBoard.drawBoard[1, i] == BingoBall)
                 {
-                    index = i;
                     Console.WriteLine("Match Row2");
                 }
-                if (BingoBoard.drawBoard[2, i] == BingoBall)
+                else if (BingoBoard.drawBoard[2, i] == BingoBall)
                 {
-                    index = i;
                     Console.WriteLine("Match Row3");
                 }
-                if (BingoBoard.drawBoard[3, i] == BingoBall)
+                else if (BingoBoard.drawBoard[3, i] == BingoBall)
                 {
-                    index = i;
                     Console.WriteLine("Match Row4");
                 }
-                if (BingoBoard.drawBoard[4, i] == BingoBall)
+                else if (BingoBoard.drawBoard[4, i] == BingoBall)
                 {
-                    index = i;
                     Console.WriteLine("Match Row5");
                 }
             }
