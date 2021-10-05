@@ -13,8 +13,8 @@ namespace Bingo
             Console.WriteLine("Push any key to draw a new ball");
             Console.ReadLine();
             Game.GetBingoBall();
-            Caller.Calls();
             Game.DupeCheck();
+            Caller.Calls();
             Game.BallCheck();
             }
         }

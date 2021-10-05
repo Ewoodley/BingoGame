@@ -19,12 +19,12 @@ namespace Bingo
         }
         public static void DupeCheck()
         {
-            if (Caller.CallerBall.Contains(BingoBall))
+            if (!Caller.CallerBall.Contains(BingoBall))
             {
                 BallPin.Add(BingoBall);
             }
             else
-                return;
+                GetBingoBall();
         }
 
         public static void BallCheck()
