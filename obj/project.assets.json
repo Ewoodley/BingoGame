@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\erwoodle\\Source\\Repos\\BingoGame\\Bingo.csproj",
+      "projectUniqueName": "C:\\Users\\erwoodle\\source\\repos\\BingoGame\\Bingo.csproj",
       "projectName": "Bingo",
-      "projectPath": "C:\\Users\\erwoodle\\Source\\Repos\\BingoGame\\Bingo.csproj",
+      "projectPath": "C:\\Users\\erwoodle\\source\\repos\\BingoGame\\Bingo.csproj",
       "packagesPath": "C:\\Users\\erwoodle\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\erwoodle\\Source\\Repos\\BingoGame\\obj\\",
+      "outputPath": "C:\\Users\\erwoodle\\source\\repos\\BingoGame\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\erwoodle\\AppData\\Roaming\\NuGet\\NuGet.Config",
