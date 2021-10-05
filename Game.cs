@@ -15,7 +15,7 @@ namespace Bingo
         public static int row3 = 0;
         public static int row4 = 0;
         public static int row5 = 0;
-        
+
         public static void GetBingoBall()
         {
             int bingoBall = Caller.NumGenerator();
@@ -31,7 +31,7 @@ namespace Bingo
                 GetBingoBall();
         }
 
-        public static void BallCheck()
+        public static bool BoardCheck()
         {
             for (int i = 0; i < BingoBoard.drawBoard.GetLength(0); i++)
             {
@@ -39,48 +39,53 @@ namespace Bingo
                 {
                     row1++;
                     Console.WriteLine($"Match Row1, you have {row1} matches in this row");
-                    
+
                 }
                 if (BingoBoard.drawBoard[1, i] == BingoBall)
-                {row2++;
+                {
+                    row2++;
                     Console.WriteLine($"Match Row2, you have {row2} matches in this row");
-                    
+
                 }
                 if (BingoBoard.drawBoard[2, i] == BingoBall)
-                {row3++;
+                {
+                    row3++;
                     Console.WriteLine($"Match Row3, you have {row3} matches in this row");
-                    
+
                 }
                 if (BingoBoard.drawBoard[3, i] == BingoBall)
-                {row4++;
+                {
+                    row4++;
                     Console.WriteLine($"Match Row4, you have {row4} matches in this row");
-                    
+
                 }
-               if (BingoBoard.drawBoard[4, i] == BingoBall)
-                {row5++;
+                if (BingoBoard.drawBoard[4, i] == BingoBall)
+                {
+                    row5++;
                     Console.WriteLine($"Match Row5, you have {row5} matches in this row");
-                    
+
                 }
                 if (row1 == 5 || row2 == 5 || row3 == 5 || row4 == 5 || row5 == 5)
                 {
                     Console.WriteLine("Congratulations, you won!");
-                    bool win = true;
-                    break;
-                }
-
+                    return false;
                     
+                }
+                
+
 
 
             }
+            return true;
         }
-           
+
 
 
     }
-            
-             
 
 
-        
-    
+
+
+
+
 }

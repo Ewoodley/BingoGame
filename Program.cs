@@ -7,17 +7,17 @@ namespace Bingo
         static void Main(string[] args)
         {
             var board = new BingoBoard();
-
-            while (true)
+            var cont = true;
+            while (cont)
             {
                 Console.WriteLine("Push any key to draw a new ball");
                 Console.ReadLine();
                 Game.GetBingoBall();
                 Game.DupeCheck();
                 Caller.Calls();
-                Game.BallCheck();
-              
-                
+                cont = Game.BoardCheck();
+
+
             }
         }
     }
