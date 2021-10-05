@@ -8,15 +8,7 @@ namespace Bingo
 {
     public class Caller
     {
-        public static List<string> CallerBall = new List<string>();
-        
-        public static char CharGenerator()
-        {
-            Random dnr = new Random();
-            char[] myLetters = { 'B', 'I', 'N', 'G', 'O' };
-            int bingoIndex = dnr.Next(0, myLetters.Length);
-            return myLetters[bingoIndex];
-        }
+        public static List<int> CallerBall = new List<int>();
 
         public static int NumGenerator()
         {

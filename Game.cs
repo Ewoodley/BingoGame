@@ -8,12 +8,12 @@ namespace Bingo
 {
     public class Game
     {
-        public static string BingoBall;
-        public static List<string> BallPin = new List<string>();
+        public static int BingoBall;
+        public static List<int> BallPin = new List<int>();
         
         public static void GetBingoBall()
         {
-            string bingoBall = Convert.ToString($"{Caller.CharGenerator()}{Caller.NumGenerator()}");
+            int bingoBall = Caller.NumGenerator();
             BingoBall = bingoBall;
         }
         public static void DupeCheck()
