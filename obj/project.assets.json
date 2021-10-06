@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\erwoodle\\.nuget\\packages\\": {}
+    "C:\\Users\\Kyle Melton\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\erwoodle\\source\\repos\\BingoGame\\Bingo.csproj",
+      "projectUniqueName": "C:\\Develop\\BingoGame\\Bingo.csproj",
       "projectName": "Bingo",
-      "projectPath": "C:\\Users\\erwoodle\\source\\repos\\BingoGame\\Bingo.csproj",
-      "packagesPath": "C:\\Users\\erwoodle\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\erwoodle\\source\\repos\\BingoGame\\obj\\",
+      "projectPath": "C:\\Develop\\BingoGame\\Bingo.csproj",
+      "packagesPath": "C:\\Users\\Kyle Melton\\.nuget\\packages\\",
+      "outputPath": "C:\\Develop\\BingoGame\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\erwoodle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Kyle Melton\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
