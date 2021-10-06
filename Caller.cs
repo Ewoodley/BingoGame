@@ -13,7 +13,7 @@ namespace Bingo
         public static int NumGenerator()
         {
             Random rnd = new Random();
-            int callNum = rnd.Next(1, 75);
+            int callNum = rnd.Next(1, 25);
             return callNum;
         }
        

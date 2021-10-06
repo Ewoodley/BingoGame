@@ -20,7 +20,7 @@ namespace Bingo
             {
                 for (var col = 0; col < drawBoard.GetLength(1); col++)
                 { 
-                   drawBoard[row, col] = draw.Next(1, 75);
+                   drawBoard[row, col] = draw.Next(1, 25);
                    Console.Write(drawBoard[row, col] + "\t");
                 }
                 Console.WriteLine("\n");
