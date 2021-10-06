@@ -13,7 +13,6 @@ namespace Bingo
                 Console.WriteLine("Push any key to draw a new ball");
                 Console.ReadLine();
                 Game.GetBingoBall();
-                Game.DupeCheck();
                 Caller.Calls();
                 cont = Game.BoardCheck();
 
@@ -23,8 +22,7 @@ namespace Bingo
     }
 }
 /* TO DO
- * Check Bingo Card against Caller Ball
- * Check Win or Lose Conditions
+ * Cteate Tests
  */
 
 

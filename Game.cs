@@ -21,15 +21,6 @@ namespace Bingo
             int bingoBall = Caller.NumGenerator();
             BingoBall = bingoBall;
         }
-        public static void DupeCheck()
-        {
-            if (!Caller.CallerBall.Contains(BingoBall))
-            {
-                BallPin.Add(BingoBall);
-            }
-            else
-                GetBingoBall();
-        }
 
         public static bool BoardCheck()
         {
